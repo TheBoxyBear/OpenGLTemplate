@@ -18,6 +18,9 @@ mono_crash.*
 
 # Build results
 [Dd]ebug/
+[Rr]elease/
+x86/
+x64/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -30,6 +33,9 @@ bld/
 [Oo]ut/
 [Ll]og/
 [Ll]ogs/
+
+# Dependency exception
+!dependency/*
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
